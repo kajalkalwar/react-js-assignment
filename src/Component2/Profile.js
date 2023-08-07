@@ -3,7 +3,6 @@ import React from "react";
 import PageContainer from "./PageContainer";
 import Singlecard from "./SingleCard";
 
-
 const Profile = ({allData}) => {
   const data = {
     id:1,

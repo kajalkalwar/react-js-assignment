@@ -42,6 +42,7 @@ export const useStyles = makeStyles({
   imageBox: {
     display: "flex",
     alignItems: "center",
+    cursor:"pointer"
   },
   navImage: {
     borderRadius: "50px",
@@ -69,6 +70,7 @@ export const useStyles = makeStyles({
     bottom: "0px",
     background: "#ffffff",
     zIndex: "1",
+    cursor:"pointer"
   },
   chat: {
     backgroundColor: "#2c65c8",

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Stack, Typography } from "@mui/material";
 import { useStyles } from "../Styles/ProfileStyles";
-import googlemap from "../Assets/googlemap.png";
+import googlemap from "../Assets/googlemap.png";   
 const Singlecard = ({state}) => {
     const classes = useStyles();
     return (

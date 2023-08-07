@@ -11,13 +11,12 @@ import {
     const classes = useStyles();
     const navigate = useNavigate();
   
-  
     const handleClick = (user) => {
       navigate(`/profilepage/${user.id}`, { state: user });
     };
   
     return (
-      <div className={classes.landingContainer}>
+      <div className={classes.landingContainer}  >
         <Card className={classes.landingCard}>
           <Stack className={classes.cardTitleContainer}>
             <Typography variant="h6" className={classes.cardTitle}>

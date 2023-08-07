@@ -1,12 +1,14 @@
 import { makeStyles } from "@mui/styles";
-
+import bg from "../Assets/bg.png"
 export const useStyles = makeStyles({
   landingContainer: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     minHeight: "100vh",
-    // background:"url(../Assets/bg2.jpeg)"
+    backgroundImage: `url(${bg})`,
+    backgroundSize: 'cover', 
+    backgroundPosition:"center",
   },
   landingCard: {
     width: "550px",

@@ -6,7 +6,7 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Chat from "./Chat";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const sideData = [
 {
   id:1,
@@ -48,11 +48,11 @@ console.log(data,"from pagecontainer")
           <Stack spacing={2} className={classes.sidebarDetails}>
             {sideData.map((item, index) => (
               <div key={index} className={classes.sidebar}>
-                <Link to={`${item.path}`}>
+                <NavLink to={`${item.path}`} style={{textDecoration:"none"}}>
                 <Typography className={classes.sidebarTitle} variant="body1">
                   {item.name}
                 </Typography>
-                </Link>
+                </NavLink>
                 <hr className={classes.horiLine} />
               </div>
             ))}

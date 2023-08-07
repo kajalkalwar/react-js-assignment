@@ -5,6 +5,7 @@ export const useStyles = makeStyles({
     position: "absolute",
     right: "300px",
     bottom: "5px",
+    cursor:"pointer"
   },
   sectionContainer: {
     backgroundColor: "#2c65c8",

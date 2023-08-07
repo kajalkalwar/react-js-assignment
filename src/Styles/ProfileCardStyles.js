@@ -3,12 +3,13 @@ import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles({
   profileCardContainer: {
     position: "absolute",
-    right: "50px",
+    right: "0px",
     width: "310px",
     borderRadius: "20px !important",
-    top: "80px",
+    top: "60px",
     boxShadow: "0px 0px 50px rgba(0,0,0,0.3) !important",
     padding: "15px 20px",
+    zIndex:"1"
   },
   profileImage: {
     display: "flex",
@@ -62,5 +63,6 @@ export const useStyles = makeStyles({
     fontSize: "16px",
     border: "0",
     borderRadius: "20px",
+    cursor:"pointer"
   },
 });
